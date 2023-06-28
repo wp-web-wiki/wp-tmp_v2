@@ -1,0 +1,13 @@
+@use "../setting/setting-merge" as *;
+
+@include mq(pc) {
+    ._sp {
+        display: none;
+    }
+}
+
+@include mq(sp) {
+    ._pc {
+        display: none;
+    }
+}

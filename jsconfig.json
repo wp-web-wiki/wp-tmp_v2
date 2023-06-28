@@ -1,0 +1,14 @@
+// VSCodeにwebpackで設定した独自設定の自動保管を持たせる
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            "@scss": [
+                "scss"
+            ],
+            "@image": [
+                "images"
+            ]
+        }
+    }
+}

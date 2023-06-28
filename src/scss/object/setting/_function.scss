@@ -1,0 +1,11 @@
+@function sp-vw($px, $designWidth: 390) {
+  @return calc(($px/$designWidth) * 100vw);
+}
+
+@function pc-vw($px, $designWidth: 1440) {
+  @return calc(($px / $designWidth) * 100vw);
+}
+
+@function position-calc($point, $endPoint) {
+  @return calc(($point / $endPoint) * 100%);
+}
